@@ -1,0 +1,315 @@
+/*Страница котакты*/
+/*Контактная информация и карты*/
+h2{
+font-size: 30px;
+font-weight: normal;
+color: #a00711;
+text-align: center;
+text-transform: uppercase; 
+}
+.contacts-info h2{
+padding-top: 25px;
+margin-top: 25px;
+}
+.contacts-info .contacts{
+    list-style-type: none;
+    font-size: 18px;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.contacts-info .contacts li{
+    display: inline-block;
+}
+.contacts-info .contacts .map-logo{
+   margin-right: 10px;
+}
+.contacts-info .contacts .map-logo img{
+   position: relative;
+   top: -50px;
+}
+
+
+
+
+
+/*Страница абитуриенту*/
+/*Контактная информация и карты*/
+.abiturient-info{
+    margin-bottom: 130px;
+}
+.abiturient-info h2{
+    margin-top: 60px;
+}
+.abiturient-info .text1{
+    line-height: 20px;
+    font-size: 18px;
+    text-indent: 26px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.abiturient-info .info{
+    list-style-type: none;
+    width: 300px;
+}
+.abiturient-info .info li{
+    margin-bottom: 10px;
+}
+.abiturient-info .info a{
+    color: #a00711;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.abiturient-info .info a:hover{
+    color:  #000;
+    transition: all 1s;
+    border-bottom: 1px solid  #000000;
+}
+.abiturient-info .icon{
+  margin-left: 600px;
+  margin-top: -200px;
+}
+
+
+
+
+
+/*Страница новостей*/
+/*Новости*/
+.news-info h2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.news-info .news-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-info .block{
+    width: 257px;
+    height: 208px;
+    color: #a00711;
+    margin-bottom: 89px;
+}
+.news-info .news-center{
+    margin-right: 9.8%;
+    margin-left: 9.8%;
+}
+.news-info .block .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 19px;
+}
+.news-info .block .date{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 65px;
+}
+.news-info .block span{
+    margin-top: 13px;
+}
+.news-info .block .info{
+   width: 257px;
+   height: 72px;
+   position: relative;
+   top: 136px;
+   background: rgba(255, 255, 255, 0.83);
+}
+.news-info .news011220{
+    background: url(/course_technicum/content/news/01-12-2020.jpg) no-repeat;
+    background-size: cover;
+}
+.news-info a{
+    color: #a00711;
+    text-decoration: none;
+}
+.news-info .block:hover{
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    margin-top: -20px;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+/**Страница с расписанием/
+/*Расписание звонков*/
+.shedule-info h2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.shedule-info .shedule-time{
+    margin-bottom: 60px;
+}
+.shedule-info .shedule-time td{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.shedule-info .shedule-time .red{
+    color: #ffffff;
+}
+.shedule-info .shedule-links{
+     margin-bottom: 150px;
+     list-style-type: none;
+}
+.shedule-info .shedule-links li{
+    margin-bottom: 10px;
+}
+.shedule-info .shedule-links a{
+    color: #a00711;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.shedule-info .shedule-links a:hover{
+    color:  #000;
+    transition: all 1s;
+    border-bottom: 1px solid  #000000;
+}
+
+
+
+
+
+
+/**Страница с заказом справки о образовании/
+/*Справка*/
+.reference-info h2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.reference-info .text{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.reference-info .ref-form label{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #a00711;
+    text-transform: uppercase;
+}
+.reference-info .ref-form .one{
+ margin-left: 15%;
+}
+.reference-info .ref-form .two{
+    margin-left: 60%;
+    position: relative;
+    top: -350px;
+   }
+.reference-info .ref-form input{
+    margin-left:10%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+}
+.reference-info .ref-form .group,
+.reference-info .ref-form .count
+{
+    margin-left: 60%;
+    position: relative;
+    top: -350px;
+}
+.reference-info .ref-form .input-text{
+    width: 30%;
+}
+.reference-info .ref-form .group{
+    width: 20%;
+}
+.reference-info .ref-form .count{
+    width: 60px;
+}
+.reference-info .ref-form .submit-button{
+    background-color: #a00711;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 28%;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 35%;
+    position: relative;
+    top: -210px;
+}
+.reference-info .ref-form .submit-button:hover{
+    color: #a00711;
+    background-color: #ffffff;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.reference-info .ref-form{
+    height: 580px;
+} 
+
+
+
+
+
+/**Страница информации о общежитии/
+/*Общежитие*/
+.hostel-info{
+    margin-bottom: 150px;
+}
+.hostel-info h2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.hostel-info .txt1{
+    line-height: 20px;
+    font-size: 18px;
+    text-indent: 26px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hostel-info .img1{
+   margin-top: 0px;
+   position: relative;
+   left: 15px;
+}
+.hostel-info .img-list{
+    margin-top: 0px;
+    width: 25%;
+    list-style-type: none;
+    float: right;
+    position: relative;
+    left: -15px;
+}
+.hostel-info .links{
+    list-style-type: none;
+    margin-top: 50px;
+}
+.hostel-info .links li{
+    margin-bottom: 13px;
+}
+.hostel-info .links .pdf-link{
+    color:  #a00711;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.hostel-info .links .pdf-link:hover{
+    color:  #000;
+    transition: all 1s;
+    border-bottom: 1px solid  #000000;
+}

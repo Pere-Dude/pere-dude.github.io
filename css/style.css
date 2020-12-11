@@ -1,0 +1,367 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+} 
+
+
+/*Шапка*/
+.header{
+    background-color: #a00711;
+    height: 163px;
+}
+.header .logo{
+    float: left;
+    width: 183px;
+    margin-left: 25px;
+    margin-top: 32px;
+}
+.header .logo-text{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    top: 111px;
+}
+.header .logo-text p{
+width: 225px;
+margin-top: 0px;
+}
+.header .schedule{
+  width: 122px;  
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  float: right;
+  margin-top: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 30px;
+  margin-top: -127px;
+}
+.header .schedule img{
+   margin-bottom: 7px;
+}
+
+
+
+/*Навигация в шапке*/
+.header .site-navigator .menu{
+    width: 634px;
+    height: 50px;
+   float: right;
+   margin-top: -39px;
+   margin-right: 50px;
+}
+.header .site-navigator ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    /*transition: all 0.5s;*/
+}
+.header .site-navigator ul li{
+    display: inline-block;
+    /*transition: all 0.5s;*/
+    padding-left: 16px;
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header .site-navigator ul a{
+  color: #ffffff; 
+  text-decoration: none; 
+  transition: all 0.8s;
+  height: 30px;
+  width: 100%;
+}
+
+/*Выпадающий вписко в меню */	
+.header .site-navigator ul.hr {
+    margin: 0;
+   }
+   .header .site-navigator ul.hr li {
+    display: inline-block;
+	    padding: 0 20px;
+	   float:left
+   }
+   .header .site-navigator ul.hr-footer {
+			margin: 0;
+		 }
+         .header .site-navigator  ul.hr-footer li {
+			display: inline-block;
+			 padding: 0 20px;
+			float:center;
+		 }
+
+
+.header .site-navigator ul {
+    list-style: none;
+    display: block;
+    margin:0px;
+    padding:0px;
+}
+.header .site-navigator ul:after {
+    display: block;
+    float: none;
+    content: ' ';
+    clear: both;
+}
+.header .site-navigator ul.menu > li {
+    float: left;
+    position: relative;
+}
+.header .site-navigator ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.header .site-navigator ul.menu > li > a:hover {
+    background-color: #ffffff;
+    color:  #a00711;
+    width: 100%;
+}
+.header .site-navigator ul.submenu {
+    position: absolute;
+    width: 185px;
+    top: 37px;
+    left:0px;
+    display: none;
+    background-color: #ffffff;
+    margin-top: 13px;
+}
+.header .site-navigator ul.submenu > li {
+    display: block;
+}
+.header .site-navigator ul.submenu > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 11px;
+    color: #000000;
+}
+.header .site-navigator ul.submenu > li > a:hover {
+    color: #ffffff;
+    background-color:  #a00711;
+    text-decoration: underline;
+    padding-right:0px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    padding-left: 20px;
+}
+.header .site-navigator ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+
+
+/*Картинка на главной странице*/
+.main-image{
+    height: 735px;
+    background:url(/course_technicum/content/main-background.jpg) center/cover no-repeat;
+}
+
+
+
+
+/*О нас*/
+.about-us{
+    position: relative;
+    width:100%;
+    top: -450px;
+    height: 432px;
+}
+.about-us .container{
+    background-color: #ffffff;
+}
+.about-us h2{
+font-size: 30px;
+font-weight: normal;
+color: #a00711;
+text-align: center;
+text-transform: uppercase;
+padding-top: 25px;
+margin-top: 25px;
+}
+.about-us .text{
+    font-size: 18px;
+    text-indent: 26px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.about-us .advantages li{
+    display: inline-block;
+    width: 205px;
+    color: #a00711;
+   margin-left: 6.7%;
+   margin-top: 44px;
+}
+.about-us .advantages li h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.about-us .advantages li p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.about-us .red-block{
+    height: 90px;
+    width: 88%;
+    background-color:  #a00711;
+    margin-left: 6%;
+}
+
+
+
+
+/*Новости*/
+.news{
+    background-color: #efefef;
+    margin-top: -457px;
+    padding-top: 105px;
+}
+
+.news-blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news h2{
+    text-align: center;
+    font-size: 30px;
+    color: #a00711;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.news .all-news{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 145px;
+    border: 1px solid  #a00711;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 60px;
+}
+.news .all-news:hover{
+    transition: all 0.5s;
+    background-color: #a00711;
+    color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.news .block{
+    width: 257px;
+    height: 208px;
+    color: #a00711;
+    margin-bottom: 89px;
+}
+.news .news-center{
+    margin-right: 9.8%;
+    margin-left: 9.8%;
+}
+.news .block .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 19px;
+}
+.news .block .date{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 65px;
+}
+.news .block span{
+    margin-top: 13px;
+}
+.news .block .info{
+   width: 257px;
+   height: 72px;
+   position: relative;
+   top: 136px;
+   background: rgba(255, 255, 255, 0.83);
+}
+.news .news011220{
+    background: url(/course_technicum/content/news/01-12-2020.jpg) no-repeat;
+    background-size: cover;
+}
+.news a{
+    color: #a00711;
+    text-decoration: none;
+}
+.news .block:hover{
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    margin-top: -20px;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+
+/*Подвал*/
+.footer{
+    background-color: #a00711;
+    margin-top: -30px;
+}
+.footer .logo{
+    float: left;
+    margin-top: 45px;
+}
+.footer .map{
+    margin-left: 287px;
+    padding-top: 44px;
+}
+.footer .map li{
+ list-style-type: none;
+ margin-bottom: 5px;
+}
+.footer .map a{
+   color: #ffffff;
+ text-decoration: none;
+ font-size: 16px;
+}
+.footer .map a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+.footer .contacts{
+    color: #ffffff;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 25px;
+    margin-left: 440px;
+    margin-top: -130px;
+}
+.footer .socials{
+    position: relative;
+    left: 720px;
+    top: -140px;
+    width: 190px;
+}
+.footer .socials li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer .socials .vk{
+    position: relative;
+    top: 8px;
+}
+.footer .copy{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin:0px;
+}
